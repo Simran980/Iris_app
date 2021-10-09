@@ -12,7 +12,7 @@ if nav == 'Prediction':
 	pred_page(df, X_train, y_train)
 
 elif nav == 'Home':
-    st.image('images\welcome.jpg' , width=500)
+    st.image('images/welcome.jpg' , width=500)
     st.title('Welcome to Iris Flower Species Prediction App')
     st.markdown('### This website predicts the species of iris flower with different Machine learning classificaion model on the basis of given data')
     st.subheader('Data Used')
