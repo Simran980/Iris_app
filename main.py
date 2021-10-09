@@ -23,9 +23,9 @@ elif nav == 'Home':
 elif nav == 'Working':
 	st.header('Working of This Website')
 	st.subheader('Types of Iris Flower Species')
-	st.image('images\iris_types.png', width = 500)
+	st.image('images/iris_types.png', width = 500)
 	st.subheader('How Species are predicted')
-	st.image('images\iris_c.png')
+	st.image('images/iris_c.png')
 
 elif nav == 'Graph':
 	st.title('Graph for prediction model')
